@@ -12,7 +12,7 @@ def authenticate_gmail():
     #bellow i made 2 lines of code a comment what happens is if you remove them the code will 
     # ask you to relog back into your gmail when it executes again while the comment is on it will work on that same gmail/email all the time
 
-    
+
     # if os.path.exists('token.pickle'):
     #     os.remove('token.pickle')
 
@@ -64,7 +64,7 @@ def main():
     while True:
         mark_emails_as_read(service, except_emails)
         print("Waiting for 1 minute before checking again...")
-        time.sleep(60)  # Sleep for 60 seconds
+        time.sleep(2)  # Sleep for 2 seconds
 
 if __name__ == '__main__':
     main()
