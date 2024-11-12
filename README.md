@@ -1,5 +1,3 @@
-Here's a `README.md` for your Gmail Email Reader script that explains each step clearly for beginners:
-
 ---
 
 # Gmail Email Reader & Mark as Read Script
