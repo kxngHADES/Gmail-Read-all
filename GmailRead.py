@@ -58,12 +58,12 @@ def main():
     creds = authenticate_gmail()
     service = build('gmail', 'v1', credentials=creds)
     
-    except_emails = ['brandonmudau2@gmail.com', 'ndaedzomu101@gmail.com']  # Add all exception emails here
+    except_emails = ['examplemail@gmail.com', 'secondexample@gmail.com']  # Add all exception emails here that should not be marked as read
     
     
     while True:
         mark_emails_as_read(service, except_emails)
-        print("Waiting for 1 minute before checking again...")
+        print("Waiting for 2 seconds before checking again...")
         time.sleep(2)  # Sleep for 2 seconds
 
 if __name__ == '__main__':
